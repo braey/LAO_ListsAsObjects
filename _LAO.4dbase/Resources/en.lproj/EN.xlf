@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--                              
+Translation file.
+This file is distributed under the same license as the product package.-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="Undefined" source-language="en" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+      </header>
+      <body>
+         <group id="16000" resname="TableBrowser">
+            <trans-unit id="1" resname="LAO_Alert_ErrorCreatingLAOFolder">
+               <source>Error creating _LOA lists folder</source>
+               <target>Error creating _LOA lists folder</target>
+            </trans-unit>
+            <trans-unit id="2" resname="LAO_Alert_ErrorParsingLAOListsFile">
+               <source>Error parsing JSON file in _LOA lists component</source>
+               <target>Error parsing JSON file in _LOA lists component</target>
+            </trans-unit>
+            <trans-unit id="3" resname="LAO_Alert_ErrorStringifyingLAOListObject">
+               <source>Error stringifying LOA list object in _LOA lists component</source>
+               <target>Error stringifying LOA list object in _LOA lists component</target>
+            </trans-unit>
+             <trans-unit id="4" resname="LAO_Alert_ReadingLAOListsFromFile">
+               <source>Error reading JSON file with _LOA lists from disk</source>
+               <target>Error reading JSON file with _LOA lists from disk</target>
+            </trans-unit>
+             <trans-unit id="5" resname="LAO_Alert_SavingLAOListToFile">
+               <source>Error saving JSON file with _LOA lists to disk</source>
+               <target>Error saving JSON file with _LOA lists to disk</target>
+            </trans-unit>       
+             <trans-unit id="6" resname="LAO_Alert_ErrorParsingJSONText">
+               <source>Error parsing JSON text</source>
+               <target>Error parsing JSON text</target>
+            </trans-unit>             
+            <trans-unit id="7" resname="LAO_Alert_LAO_InitFailed">
+               <source> : Initialisation of the LAO list component failed</source>
+               <target> : Initialisation of the LAO list component failed</target>
+            </trans-unit>   
+            <trans-unit id="8" resname="LAO_Alert_ListNameEmpty">
+               <source> : You need to provide a list name</source>
+               <target> : You need to provide a list name</target>
+            </trans-unit>    
+            <trans-unit id="9" resname="LAO_Alert_ListNameDoesNotExist">
+               <source> : Provided list name does not exist</source>
+               <target> : Provided list name does not exist</target>
+            </trans-unit>   
+            <trans-unit id="10" resname="LAO_Alert_ListNameNotActive">
+               <source> : Provided list name no longer active</source>
+               <target> : Provided list name no longer active</target>
+            </trans-unit> 
+             <trans-unit id="11" resname="LAO_Alert_ListTypeWrong">
+               <source> : Requested list has the wrong type</source>
+               <target> : Requested list has the wrong type</target>
+            </trans-unit>            
+             <trans-unit id="12" resname="LAO_Alert_InvalidInfoOption">
+               <source> : Invalid info option in function call</source>
+               <target> : Invalid info option in function call</target>
+            </trans-unit> 
+            <trans-unit id="13" resname="LAO_Alert_CollectionMissing">
+               <source> : You need to provide a pointer to a collection to receive the list items</source>
+               <target> : You need to provide a pointer to a collection to receive the list items</target>
+            </trans-unit>
+            <trans-unit id="14" resname="LAO_Alert_ArrayMissing">
+               <source> : You need to provide a pointer to an array to receive the list items</source>
+               <target> : You need to provide a pointer to an array to receive the list items</target>
+            </trans-unit>            
+            <trans-unit id="15" resname="LAO_Alert_4DListMissing">
+               <source> : You need to provide a pointer to a 4D List to receive the list items</source>
+               <target> : You need to provide a pointer to a 4D List to receive the list items</target>
+            </trans-unit>      
+            <trans-unit id="16" resname="LAO_Alert_ListItemRefMissing">
+               <source> : You need to provide a list item reference in 2nd parameter (name or item order)</source>
+               <target> : You need to provide a list item reference in 2nd parameter (name or item order)</target>
+            </trans-unit>                  
+             <trans-unit id="17" resname="LAO_Alert_ListItemRefWrong">
+               <source> : Wrong value type for the 2nd parameter</source>
+               <target> : Wrong value type for the 2nd parameter</target>
+            </trans-unit>    
+             <trans-unit id="18" resname="LAO_Alert_ListItemNotExists">
+               <source> : Provided list item reference does not exist</source>
+               <target> : Provided list item reference does not exist</target>
+            </trans-unit>                
+            <trans-unit id="19" resname="LAO_Alert_ErrorReparsingBeforeSave">
+               <source>Error re-parsing list object before save</source>
+               <target>Error re-parsing list object before save</target>
+            </trans-unit>            
+                                             
+            <trans-unit id="20" resname="LAO_Alert_EditorAlreadyInUse">
+               <source>Another user or process is already working with the list editor. Please try again later.</source>
+               <target>Another user or process is already working with the list editor. Please try again later.</target>
+            </trans-unit>   
+            <trans-unit id="21" resname="LAOEDIT_WindowTitle">
+               <source>List Editor</source>
+               <target>List Editor</target>
+            </trans-unit>   
+            <trans-unit id="22" resname="LAOEDIT_lbl_ListName">
+               <source>List name</source>
+               <target>List name</target>
+            </trans-unit>
+            <trans-unit id="23" resname="LAOEDIT_lbl_MenuName">
+               <source>Menu name</source>
+               <target>Menu name</target>
+            </trans-unit>
+			<trans-unit id="24" resname="LAOEDIT_btn_AddList">
+               <source>Add List</source>
+               <target>Add List</target>
+            </trans-unit>            
+            <trans-unit id="25" resname="LAOEDIT_btn_DelList">
+               <source>Del List</source>
+               <target>Del List</target>
+            </trans-unit>             
+            <trans-unit id="26" resname="LAOEDIT_btn_AddItem">
+               <source>Add Item</source>
+               <target>Add Item</target>
+            </trans-unit>            
+            <trans-unit id="27" resname="LAOEDIT_btn_DelItem">
+               <source>Del Item</source>
+               <target>Del Item</target>
+            </trans-unit> 
+            <trans-unit id="28" resname="LAOEDIT_btn_Collapse">
+               <source>Collapse</source>
+               <target>Collapse</target>
+            </trans-unit> 
+            <trans-unit id="29" resname="LAOEDIT_btn_Expand">
+               <source>Expand</source>
+               <target>Expand</target>
+            </trans-unit>            
+           
+            <trans-unit id="30" resname="LAOEDIT_SublistWindowTitle">
+               <source>Sublist contents</source>
+               <target>Sublist contents</target>
+            </trans-unit>   
+            
+            <trans-unit id="31" resname="LAOEDIT_lbl_ListActive">
+               <source>List Active</source>
+               <target>List Active</target>
+            </trans-unit>     
+            <trans-unit id="32" resname="LAOEDIT_lbl_ListDescr">
+               <source>List Description</source>
+               <target>List Description</target>
+            </trans-unit>    
+            <trans-unit id="33" resname="LAOEDIT_lbl_ListType">
+               <source>List type</source>
+               <target>List type</target>
+            </trans-unit>              
+            <trans-unit id="34" resname="LAOEDIT_lbl_ListAttr">
+               <source>List Attributes</source>
+               <target>List Attributes</target>
+            </trans-unit>    
+            <trans-unit id="34" resname="LAOEDIT_lbl_ListAttr">
+               <source>List Attributes</source>
+               <target>List Attributes</target>
+            </trans-unit>             
+            <trans-unit id="35" resname="LAOEDIT_btn_NewListAttrib">
+               <source>New list attribute</source>
+               <target>New list attribute</target>
+            </trans-unit>         
+            <trans-unit id="36" resname="LAOEDIT_btn_DelListAttrib">
+               <source>Delete list attribute</source>
+               <target>Delete list attribute</target>
+            </trans-unit>                          
+            <trans-unit id="37" resname="LAOEDIT_lbl_ListMandatAttr">
+               <source>Mandatory Item Attributes</source>
+               <target>Mandatory Item Attributes</target>
+            </trans-unit>  
+            <trans-unit id="38" resname="LAOEDIT_btn_NewAttrib">
+               <source>New item attribute</source>
+               <target>New item attribute</target>
+            </trans-unit>         
+            <trans-unit id="39" resname="LAOEDIT_btn_DelAttrib">
+               <source>Delete item attribute</source>
+               <target>Delete item attribute</target>
+            </trans-unit>  
+            <trans-unit id="40" resname="LAOEDIT_btn_RenameAttrib">
+               <source>Rename attribute</source>
+               <target>Rename attribute</target>
+            </trans-unit>  
+            <trans-unit id="41" resname="LAOEDIT_btn_Return">
+               <source>Return</source>
+               <target>Return</target>
+            </trans-unit>  
+             <trans-unit id="42" resname="LAOEDIT_lbl_AttrName">
+               <source>Attribute Name</source>
+               <target>Attribute Name</target>
+            </trans-unit>               
+             <trans-unit id="43" resname="LAOEDIT_lbl_AttrType">
+               <source>Attribute Type</source>
+               <target>Attribute Type</target>
+            </trans-unit>               
+             <trans-unit id="44" resname="LAOEDIT_lbl_AttrValue">
+               <source>Attribute Value</source>
+               <target>Attribute Value</target>
+            </trans-unit>             
+            <trans-unit id="45" resname="LAOEDIT_lbl_ItemName">
+               <source>Item Name</source>
+               <target>Item Name</target>
+            </trans-unit>             
+            <trans-unit id="46" resname="LAOEDIT_lbl_ItemOrder">
+               <source>Item Order</source>
+               <target>Item Order</target>
+            </trans-unit> 
+            <trans-unit id="47" resname="LAOEDIT_lbl_ItemActive">
+               <source>Item Active</source>
+               <target>Item Active</target>
+            </trans-unit> 
+            <trans-unit id="48" resname="LAOEDIT_lbl_ItemSublist">
+               <source>Sublist</source>
+               <target>Sublist</target>
+            </trans-unit> 
+    	    <trans-unit id="49" resname="LAOEDIT_lbl_ItemSubmenu">
+               <source>Submenu</source>
+               <target>Submenu</target>
+            </trans-unit>           
+            <trans-unit id="50" resname="LAOEDIT_lbl_ItemAttributes">
+               <source>Item Attributes</source>
+               <target>Item Attributes</target>
+            </trans-unit> 
+            <trans-unit id="51" resname="LAOEDIT_lbl_ListRefs">
+               <source>Refs.</source>
+               <target>Refs.</target>
+            </trans-unit>
+            <trans-unit id="52" resname="LAOEDIT_lbl_ListNames">
+               <source>List Names</source>
+               <target>List Names</target>
+            </trans-unit>
+            
+            <trans-unit id="60" resname="LAOEDIT_lbl_ListItemOrder">
+               <source>Order</source>
+               <target>Order</target>
+            </trans-unit>
+            <trans-unit id="61" resname="LAOEDIT_lbl_ListItemName">
+               <source>Item name</source>
+               <target>Item name</target>
+            </trans-unit>
+            
+            <trans-unit id="80" resname="LAOEDIT_MNU_MainList1">
+               <source>Rename list</source>
+               <target>Rename list</target>
+            </trans-unit>
+            <trans-unit id="81" resname="LAOEDIT_MNU_MainList2a">
+               <source>Make Inactive</source>
+               <target>Make Inactive</target>
+            </trans-unit>            
+            <trans-unit id="82" resname="LAOEDIT_MNU_MainList2b">
+               <source>Make Active</source>
+               <target>Make Active</target>
+            </trans-unit>              
+            <trans-unit id="83" resname="LAOEDIT_MNU_MainList3">
+               <source>Change List Type</source>
+               <target>Change List Type</target>   
+            </trans-unit>
+            <trans-unit id="84" resname="LAOEDIT_MNU_MainList4">
+               <source>Show Hierarchical List</source>
+               <target>Show Hierarchical List</target>            
+            </trans-unit>
+            <trans-unit id="85" resname="LAOEDIT_MNU_MainList5">
+               <source>Save All Lists</source>
+               <target>Save All Lists</target>            
+            </trans-unit> 
+            <trans-unit id="86" resname="LAOEDIT_MNU_MainList6">
+               <source>Export All Lists</source>
+               <target>Export All Lists</target>            
+            </trans-unit>     
+            
+            <trans-unit id="89" resname="LAOEDIT_Req_NewListName">
+               <source>Enter New list name</source>
+               <target>Enter New list name</target>
+            </trans-unit>     
+            <trans-unit id="90" resname="LAOEDIT_Req_NewSubListName">
+               <source>Enter New sublist name</source>
+               <target>Enter New sublist name</target>
+            </trans-unit>  
+             <trans-unit id="91" resname="LAOEDIT_Req_NewMenuName">
+               <source>Enter New menu name</source>
+               <target>Enter New menu name</target>
+            </trans-unit>           
+             <trans-unit id="92" resname="LAOEDIT_Req_NewSubMenuName">
+               <source>Enter New submenu name</source>
+               <target>Enter New submenu name</target>
+            </trans-unit>                   
+            <trans-unit id="93" resname="LAOEDIT_Alert_ListCannotBeBlank">
+               <source>The list name cannot be blank</source>
+               <target>The list name cannot be blank</target>
+            </trans-unit>    
+            <trans-unit id="94" resname="LAOEDIT_Alert_ListAlreadyExists">
+               <source>At least 1 List with this name already exists: </source>
+               <target>At least 1 List with this name already exists: </target>
+            </trans-unit>    
+            <trans-unit id="95" resname="LAOEDIT_Req_NewListType">
+               <source>Enter new list type</source>
+               <target>Enter new list type</target>
+            </trans-unit>        
+            <trans-unit id="96" resname="LAOEDIT_Alert_RenameSublist">
+               <source>Renaming a sublist will rename all it's occurences in other lists and sublists!!!</source>
+               <target>Renaming a sublist will rename all it's occurences in other lists and sublists!!!</target>
+            </trans-unit>
+            <trans-unit id="97" resname="LAOEDIT_Alert_RenameSubmenu">
+               <source>Renaming a submenu will rename all it's occurences in other lists and submenus!!!</source>
+               <target>Renaming a submenu will rename all it's occurences in other lists and submenus!!!</target>
+            </trans-unit>                
+             <trans-unit id="101" resname="LAOEDIT_Alert_ListSaved">
+               <source>Lists saved successfully</source>
+               <target>Lists saved successfully</target>
+            </trans-unit>                       
+             <trans-unit id="102" resname="LAOEDIT_Alert_ListSaveFailed">
+               <source>Saving lists has failed</source>
+               <target>Saving lists has failed</target>
+            </trans-unit>                     
+            <trans-unit id="103" resname="LAOEDIT_Alert_SaveChangesOnExit">
+               <source>Do you want to save the changes that were made to the list(s)?</source>
+               <target>Do you want to save the changes that were made to the list(s)?</target>
+            </trans-unit>     
+            <trans-unit id="104" resname="LAOEDIT_lbl_Save">
+               <source>Save</source>
+               <target>Save</target>
+            </trans-unit>  
+            <trans-unit id="105" resname="LAOEDIT_lbl_DontSave">
+               <source>Don't Save</source>
+               <target>Don't Save</target>
+            </trans-unit>  
+            
+            <trans-unit id="106" resname="LAOEDIT_Alert_ExportDone">
+               <source>File '_LAO_Lists.json' was saved on your desktop</source>
+               <target>File '_LAO_Lists.json' was saved on your desktop</target>
+            </trans-unit>     
+             
+            <trans-unit id="111" resname="LAOEDIT_Alert_SelectListFirst">
+               <source>Select a list first</source>
+               <target>Select a list first</target>
+            </trans-unit>  
+            <trans-unit id="112" resname="LAOEDIT_Alert_SelectListItemFirst">
+               <source>Select a list item first</source>
+               <target>Select a list item first</target>
+            </trans-unit>  
+            <trans-unit id="113" resname="LAOEDIT_Alert_SelectAttributeFirst">
+               <source>Select an attribute first</source>
+               <target>Select an attribute first</target>
+            </trans-unit>  
+            <trans-unit id="114" resname="LAOEDIT_Alert_AskDeleteMandAttrib">
+               <source>Are you sure you want to remove the selected mandatory attribute?</source>
+               <target>Are you sure you want to remove the selected mandatory attribute?</target>
+            </trans-unit>  
+            <trans-unit id="115" resname="LAOEDIT_Alert_AskDeleteAttrib">
+               <source>Are you sure you want to remove the selected attribute?</source>
+               <target>Are you sure you want to remove the selected attribute?</target>
+            </trans-unit>  
+            <trans-unit id="116" resname="LAOEDIT_Alert_AskDelAttribAllItems">
+               <source>Remove the attribute from all existing list items?</source>
+               <target>Remove the attribute from all existing list items?</target>
+            </trans-unit>  
+             <trans-unit id="117" resname="LAOEDIT_Alert_NewMandAttrAlreadyExists">
+               <source>An unused new mandatory attribute already exists</source>
+               <target>An unused new mandatory attribute already exists</target>
+            </trans-unit>    
+             <trans-unit id="118" resname="LAOEDIT_Alert_MandAttrAlreadyExists">
+               <source>This mandatory attribute already exists: </source>
+               <target>This mandatory attribute already exists: </target>
+            </trans-unit>  
+            <trans-unit id="119" resname="LAOEDIT_Alert_MandAttrDeleteNotAllowed">
+               <source>This mandatory attribute cannot be removed!</source>
+               <target>This mandatory attribute cannot be removed!</target>
+            </trans-unit>           
+             <trans-unit id="120" resname="LAOEDIT_lbl_NewListAttrName">
+               <source>New list attribute</source>
+               <target>New list attribute</target>
+            </trans-unit> 
+             <trans-unit id="121" resname="LAOEDIT_Alert_NewListAttrAlreadyExists">
+               <source>An unused new list attribute already exists</source>
+               <target>An unused new list attribute already exists</target>
+            </trans-unit>             
+             <trans-unit id="122" resname="LAOEDIT_Alert_AttrAlreadyExists">
+               <source>This list attribute already exists: </source>
+               <target>This list attribute already exists: </target>
+            </trans-unit>                
+            <trans-unit id="123" resname="LAOEDIT_Alert_AskDeleteListAttrib">
+               <source>Are you sure you want to remove the selected list attribute?</source>
+               <target>Are you sure you want to remove the selected list attribute?</target>
+            </trans-unit>              
+            <trans-unit id="124" resname="LAOEDIT_Alert_CheckValuesMandAttr">
+               <source>Don't forget to check the values of each item for this mandatory property</source>
+               <target>Don't forget to check the values of each item for this mandatory property</target>
+            </trans-unit>                    
+            <trans-unit id="125" resname="LAOEDIT_lbl_NewMandAttrName">
+               <source>New attribute name</source>
+               <target>New attribute name</target>
+            </trans-unit> 
+              <trans-unit id="126" resname="LAOEDIT_Alert_NewAttrAlreadyExists">
+               <source>An unused new attribute already exists</source>
+               <target>An unused new attribute already exists</target>
+            </trans-unit>    
+             <trans-unit id="127" resname="LAOEDIT_Alert_AttrAlreadyExists">
+               <source>This attribute already exists: </source>
+               <target>This attribute already exists: </target>
+            </trans-unit>               
+            <trans-unit id="128" resname="LAOEDIT_lbl_NewListName">
+               <source>New list</source>
+               <target>New list</target>
+            </trans-unit>  
+            <trans-unit id="129" resname="LAOEDIT_Alert_NewListNameAlreadyExists">
+               <source>An unused new list already exists</source>
+               <target>An unused new list already exists</target>
+            </trans-unit>  
+            <trans-unit id="130" resname="LAOEDIT_Alert_ListNameAlreadyExists">
+               <source>A list with this name already exists</source>
+               <target>A list with this name already exists</target>         
+            </trans-unit>                              
+             <trans-unit id="131" resname="LAOEDIT_Alert_AskDeleteList">
+               <source>Are you sure you want to delete the selected list? (Cannot be undone!!!)</source>
+               <target>Are you sure you want to delete the selected list? (Cannot be undone!!!)</target>         
+            </trans-unit>   
+             <trans-unit id="132" resname="LAOEDIT_Alert_AskDeleteSublist">
+               <source>Are you sure you want to delete the selected sublist? (Cannot be undone!!!)</source>
+               <target>Are you sure you want to delete the selected sublist? (Cannot be undone!!!)</target>         
+            </trans-unit>   
+            <trans-unit id="133" resname="LAOEDIT_Alert_AskDeleteMenu">
+               <source>Are you sure you want to delete the selected menu? (Cannot be undone!!!)</source>
+               <target>Are you sure you want to delete the selected menu? (Cannot be undone!!!)</target>         
+            </trans-unit>  
+            <trans-unit id="134" resname="LAOEDIT_Alert_AskDeleteSubmenu">
+               <source>Are you sure you want to delete the selected submenu? (Cannot be undone!!!)</source>
+               <target>Are you sure you want to delete the selected submenu? (Cannot be undone!!!)</target>         
+            </trans-unit>           
+            <trans-unit id="135" resname="LAOEDIT_lbl_NewListItemName">
+               <source>New list item</source>
+               <target>New list item</target>
+            </trans-unit>
+            <trans-unit id="136" resname="LAOEDIT_Alert_NewListItemAlreadyExists">
+               <source>An unused new list item already exists</source>
+               <target>An unused new list item already exists</target>
+            </trans-unit>
+            <trans-unit id="137" resname="LAOEDIT_Alert_ListItemAlreadyExist">
+               <source>A list item with this name already exists</source>
+               <target>A list item with this name already exists</target>
+            </trans-unit>
+            <trans-unit id="138" resname="LAOEDIT_Alert_ListItemNotBlanc">
+               <source>The list item name cannot be blanc</source>
+               <target>The list item name cannot be blanc</target>
+            </trans-unit>                      
+            <trans-unit id="139" resname="LAOEDIT_Alert_AskDeleteListItem">
+               <source>Are you sure you want to delete the selected list item? (Cannot be undone!!!)</source>
+               <target>Are you sure you want to delete the selected list item? (Cannot be undone!!!</target>
+            </trans-unit>     
+            <trans-unit id="140" resname="LAOEDIT_Alert_HLProcessingError">
+               <source>Circular sublist reference for sublist: </source>
+               <target>Circular sublist reference for sublist: </target>
+            </trans-unit>   
+            
+            <trans-unit id="141" resname="LAOEDIT_lbl_NewAttrName">
+               <source>New attribute name</source>
+               <target>New attribute name</target>
+            </trans-unit>  
+            <trans-unit id="142" resname="LAOEDIT_Alert_NewListItemAttrAlreadyExists">
+               <source>An unused new list item attribute already exists</source>
+               <target>An unused new list item attribute already exists</target>
+            </trans-unit>  
+             <trans-unit id="143" resname="LAOEDIT_Alert_ItemAttrAlreadyExists">
+               <source>This attribute already exists: </source>
+               <target>This attribute already exists: </target>
+            </trans-unit>                                   
+            <trans-unit id="144" resname="LAOEDIT_Alert_TypeMandAttrCannotChange">
+               <source>The type of a mandatory attribute cannot be changed</source>
+               <target>The type of a mandatory attribute cannot be changed</target>
+            </trans-unit>       
+            <trans-unit id="145" resname="LAOEDIT_Alert_CannotDeleteMandAttr">
+               <source>You cannot remove a mandatory attribute!</source>
+               <target>You cannot remove a mandatory attribute!</target>
+            </trans-unit> 
+            <trans-unit id="146" resname="LAOEDIT_Alert_MandAttrMustHaveValue">
+               <source>Value of the mandatory attribute cannot be empty</source>
+               <target>Value of the mandatory attribute cannot be empty</target>
+            </trans-unit>         
+            <trans-unit id="147" resname="LAOEDIT_Alert_MandAttrMustHaveDate">
+               <source>You must enter a date value for this madatory attribute</source>
+               <target>You must enter a date value for this madatory attribute</target>
+            </trans-unit>              
+            <trans-unit id="148" resname="LAOEDIT_Alert_MandAttrMustHaveBoolean">
+               <source>You must enter a True or False for this madatory attribute</source>
+               <target>You must enter a True or False for this madatory attribute</target>
+            </trans-unit>  
+            
+        	<trans-unit id="149" resname="LAOEDIT_Alert_AttributeValueNumeric">
+               <source>You must provide a numeric value for the attribute: </source>
+               <target>You must provide a numeric value for the attribute: </target>
+            </trans-unit>  
+            <trans-unit id="150" resname="LAOEDIT_Alert_AttributeValueDate">
+               <source>You entered an incorrect date for attribute: </source>
+               <target>You entered an incorrect date for attribute: </target>
+            </trans-unit> 
+            <trans-unit id="151" resname="LAOEDIT_Alert_AttributeValueBoolean">
+               <source>You must provide the value True or False for the attribute: </source>
+               <target>You must provide the value True or False for the attribute: </target>
+            </trans-unit> 
+            
+            <trans-unit id="155" resname="LAOEDIT_Alert_MandAttrProvideValue">
+               <source>You must provide a value for this attribute: </source>
+               <target>You must provide a value for this attribute: </target>
+            </trans-unit>   
+            <trans-unit id="156" resname="LAOEDIT_Confirm_AddNewMandAttrToAllItems">
+               <source>Add new attribute to all existing list items?</source>
+               <target>Add new attribute to all existing list items?</target>
+            </trans-unit>  
+            <trans-unit id="157" resname="LAOEDIT_Confirm_AddNewMandAttrToAllItems">
+               <source>Add new attribute to all existing list items?</source>
+               <target>Add new attribute to all existing list items?</target>
+            </trans-unit>  
+            <trans-unit id="158" resname="LAOEDIT_Confirm_ChangeAttrNameAllItems">
+               <source>Do you want to change this attribute name for all existing list items?</source>
+               <target>Do you want to change this attribute name for all existing list items?</target>
+            </trans-unit>              
+             <trans-unit id="159" resname="LAOEDIT_Confirm_ChangeAttrTypeAllItems">
+               <source>Change this attribute type for all existing list items?</source>
+               <target>Change this attribute type for all existing list items?</target>
+            </trans-unit>      
+             <trans-unit id="160" resname="LAOEDIT_Confirm_PasteObject">
+               <source>Are you sure you want to OVERWRITE the current object?</source>
+               <target>Are you sure you want to OVERWRITE the current object?</target>
+            </trans-unit>    
+             <trans-unit id="161" resname="LAOEDIT_Confirm_PasteCollection">
+               <source>Are you sure you want to OVERWRITE the current collection?</source>
+               <target>Are you sure you want to OVERWRITE the current collection?</target>
+            </trans-unit>             
+            
+             <trans-unit id="170" resname="LAOEDIT_Request_NewMandAttrName">
+               <source>Enter new mandatory attribute name</source>
+               <target>Enter new mandatory attribute name</target>
+            </trans-unit>  
+            
+        	<trans-unit id="201" resname="LAOEDIT_Alert_NoActiveSublists">
+               <source>There are currently no active lists of type 'Sublist'!!!</source>
+               <target>There are currently no active lists of type 'Sublist'!!!</target>
+            </trans-unit>  
+          	<trans-unit id="202" resname="LAOEDIT_Alert_SublistDoesNotExist">
+               <source>An active list of type 'Sublist' with this name does not exist!!!</source>
+               <target>An active list of type 'Sublist' with this name does not exist!!!</target>
+            </trans-unit>  
+            <trans-unit id="203" resname="LAOEDIT_Alert_SublistParentReference">
+               <source>You cannot create a sublist with the same name as the parent list!!!</source>
+               <target>You cannot create a sublist with the same name as the parent list!!!</target>
+            </trans-unit> 
+            
+            <trans-unit id="211" resname="LAOEDIT_Alert_NoMenuTypeLists">
+               <source>There are currently no active lists of type 'menu'!!!</source>
+               <target>There are currently no active lists of type 'menu'!!!</target>
+            </trans-unit>  
+          	<trans-unit id="212" resname="LAOEDIT_Alert_MenuDoesNotExist">
+               <source>An active list of type 'menu' with this name does not exist!!!</source>
+               <target>An active list of type 'menu' with this name does not exist!!!</target>
+            </trans-unit>  
+            <trans-unit id="213" resname="LAOEDIT_Alert_MenuParentReference">
+               <source>You cannot create a submenu with the same name as the parent menu!!!</source>
+               <target>You cannot create a submenu with the same name as the parent menu!!!</target>
+            </trans-unit> 
+            
+            <trans-unit id="300" resname="LAOEDITOBJ_WindowTitle">
+               <source>Object editor</source>
+               <target>Object editor</target>
+            </trans-unit>             
+            <trans-unit id="301" resname="LAOEDITOBJ_lbl_Origen">
+               <source>Parent: </source>
+               <target>Parent: </target>
+            </trans-unit> 
+            <trans-unit id="302" resname="LAOEDITOBJ_lbl_Attribute">
+               <source>Attribute: </source>
+               <target>Attribute: </target>
+            </trans-unit> 
+            <trans-unit id="303" resname="LAOEDITOBJ_lbl_NewAttrName">
+               <source>New_Attribute</source>
+               <target>New_Attribute</target>
+            </trans-unit> 
+            <trans-unit id="304" resname="LAOEDITOBJ_lbl_NewCollValue">
+               <source>New_Collection_Value</source>
+               <target>New_Collection_Value</target>
+            </trans-unit> 
+
+            
+            <trans-unit id="331" resname="LAOEDITOBJ_btn_Cancel">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit> 
+            <trans-unit id="332" resname="LAOEDITOBJ_btn_OK">
+               <source>OK</source>
+               <target>OK</target>
+            </trans-unit> 
+            <trans-unit id="333" resname="LAOEDITOBJ_btn_PasteObj">
+               <source>Paste Object</source>
+               <target>Paste Object</target>
+            </trans-unit> 
+            <trans-unit id="334" resname="LAOEDITOBJ_btn_AddObjAttr">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>             
+            <trans-unit id="335" resname="LAOEDITOBJ_btn_DelObjAttr">
+               <source>Del</source>
+               <target>Del</target>
+            </trans-unit>                
+            <trans-unit id="336" resname="LAOEDITOBJ_btn_PasteCol">
+               <source>Paste Collection</source>
+               <target>Paste Collection</target>
+            </trans-unit> 
+            <trans-unit id="337" resname="LAOEDITOBJ_btn_AddColVal">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>             
+            <trans-unit id="338" resname="LAOEDITOBJ_btn_DelColVal">
+               <source>Del</source>
+               <target>Del</target>
+            </trans-unit>                
+            <trans-unit id="339" resname="LAOEDITOBJ_btn_AddColObj">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>             
+            <trans-unit id="340" resname="LAOEDITOBJ_btn_DelColObj">
+               <source>Del</source>
+               <target>Del</target>
+            </trans-unit>                 
+             <trans-unit id="342" resname="LAOEDITOBJ_btn_Add2Col">
+               <source>Add To Collection</source>
+               <target>Add To Collection</target>
+            </trans-unit>   
+            <trans-unit id="343" resname="LAOEDITOBJ_btn_AddColObjAttr">
+               <source>Add</source>
+               <target>Add</target>
+            </trans-unit>             
+            <trans-unit id="344" resname="LAOEDITOBJ_btn_DelColObjAttr">
+               <source>Del</source>
+               <target>Del</target>
+            </trans-unit>                            
+            
+             <trans-unit id="351" resname="LAOEDITOBJ_hdr_ObjAttrib">
+               <source>Attribute</source>
+               <target>Attribute</target>
+            </trans-unit>   
+            <trans-unit id="352" resname="LAOEDITOBJ_hdr_ObjAttribValue">
+               <source>Value</source>
+               <target>Value</target>
+            </trans-unit>                      
+            <trans-unit id="353" resname="LAOEDITOBJ_hdr_ObjAttribType">
+               <source>Type</source>
+               <target>Type</target>
+            </trans-unit>              
+        	<trans-unit id="354" resname="LAOEDITOBJ_hdr_ColValues">
+               <source>Collection Values</source>
+               <target>Collection Values</target>
+            </trans-unit>               
+            <trans-unit id="355" resname="LAOEDITOBJ_hdr_ColObjects">
+               <source>Collection Objects</source>
+               <target>Collection Objects</target>
+            </trans-unit>        
+            
+            <trans-unit id="401" resname="LAOEDITOBJ_Alert_NewAttrAlreadyExists">
+               <source>An unused new object attribute already exists</source>
+               <target>An unused new object attribute already exists</target>
+            </trans-unit>                 
+             <trans-unit id="402" resname="LAOEDITOBJ_Alert_SelectObjAttrFirst">
+               <source>Select an object attribute first please</source>
+               <target>Select an object attribute first please</target>
+            </trans-unit>                 
+             <trans-unit id="403" resname="LAOEDITOBJ_Alert_AskDeleteObjAttr">
+               <source>Delete selected object attribute?</source>
+               <target>Delete selected object attribute?</target>
+            </trans-unit>    
+            <trans-unit id="405" resname="LAOEDITOBJ_Alert_NewCollValAlreadyExists">
+               <source>An unused new collection value already exists</source>
+               <target>An unused new collection value already exists</target>
+            </trans-unit>               
+             <trans-unit id="406" resname="LAOEDITOBJ_Alert_SelectCollValrFirst">
+               <source>Select a collection value first please</source>
+               <target>Select a collection value first please</target>
+            </trans-unit>             
+             <trans-unit id="407" resname="LAOEDITOBJ_Alert_AskDeleteCollVal">
+               <source>Delete selected collection value?</source>
+               <target>Delete selected collection value?</target>
+            </trans-unit>              
+            
+            
+            
+            
+            
+            
+            
+            
+                            
+            
+            <trans-unit id="10001" resname="WidgetFilter_SearchObjectEmpty">
+               <source>The data object to be searched is empty</source>
+               <target>The data object to be searched is empty</target>
+            </trans-unit>           
+            <trans-unit id="10011" resname="WidgetDDL_ListAttributeMissing">
+               <source>You need to provide a list name!!!</source>
+               <target>You need to provide a list name!!!</target>
+            </trans-unit>          
+            <trans-unit id="10012" resname="WidgetDDL_SourceAttributeMissing">
+               <source>You need to provide a sourceAttrib attribute!!!</source>
+               <target>You need to provide a sourceAttrib attribute!!!</target>
+            </trans-unit>   
+            <trans-unit id="10013" resname="WidgetDDL_ListboxAttributeMissing">
+               <source>You need to provide a listboxAttrib attribute!!!</source>
+               <target>You need to provide a listboxAttrib attribute!!!</target>
+            </trans-unit>             
+                
+            <trans-unit id="10015" resname="WidgetDDL_NoSuchEntry">
+               <source>No such entry in the list</source>
+               <target>No such entry in the list</target>
+            </trans-unit>              
+            <trans-unit id="10016" resname="WidgetDDL_DuplicateEntry">
+               <source>Duplicate entry in the list, please remove</source>
+               <target>Duplicate entry in the list, please remove</target>
+            </trans-unit>             
+            <trans-unit id="10017" resname="WidgetDDL_LBColumnAttribMissing">
+               <source>'listBoxColumnAttrib' attribute is missing</source>
+               <target>'listBoxColumnAttrib' attribute is missing</target>
+            </trans-unit>          
+            <trans-unit id="10018" resname="WidgetDDL_LBColumnWidthAttribMissing">
+               <source>'listboxColumnWidths' attribute is missing</source>
+               <target>'listboxColumnWidths' attribute is missing</target>
+            </trans-unit>             
+             <trans-unit id="10019" resname="WidgetDDL_LBColumnHdrsWrong">
+               <source>Number of listbox column headers is not equal to the number of columns</source>
+               <target>Number of listbox column headers is not equal to the number of columns</target>
+            </trans-unit>               
+            <trans-unit id="10020" resname="WidgetDDL_LBColumnWidthsWrong">
+               <source>Number of listbox column widths is not equal to the number of columns</source>
+               <target>Number of listbox column widths is not equal to the number of columns</target>
+            </trans-unit>             
+                                
+                  
+            <trans-unit id="10501" resname="MSGAlert_WindowTitle">
+               <source>Alert</source>
+               <target>Alert</target>
+            </trans-unit>          
+            <trans-unit id="10502" resname="MSGConfirm_WindowTitle">
+               <source>Confirm</source>
+               <target>Confirm</target>
+            </trans-unit>  
+            <trans-unit id="10503" resname="MSGRequest_WindowTitle">
+               <source>Request</source>
+               <target>Request</target>
+            </trans-unit>                                
+            <trans-unit id="10511" resname="MSGConfirm_lbl_OkButton">
+               <source>Ok</source>
+               <target>Ok</target>
+            </trans-unit> 
+            <trans-unit id="10512" resname="MSGConfirm_lbl_CancelButton">
+               <source>Cancel</source>
+               <target>Cancel</target>
+            </trans-unit>   
+                       
+            <trans-unit id="10601" resname="UT_Missing parameter">
+               <source>Missing parameter +++ in call to method ===</source>
+               <target>Missing parameter +++ in call to method ===</target>
+            </trans-unit>    
+            <trans-unit id="10601" resname="UT_Wrong parameter type">
+               <source>Wrong parameter type +++ in call to method ===</source>
+               <target>Wrong parameter type +++ in call to method ===</target>
+            </trans-unit>                                                                    
+                                                                                                                         
+         </group>
+         <group id="13" resname=""/>
+      </body>
+   </file>
+</xliff>
